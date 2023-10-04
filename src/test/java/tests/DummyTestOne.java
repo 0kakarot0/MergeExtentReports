@@ -14,8 +14,8 @@ public class DummyTestOne extends BaseClass {
         extentReport.createReport();
         Thread.sleep(1000);
         extentReport.createTest("Page One Test", "Test of the Page one");
-        System.out.println("How you doing!");
-        extentReport.passTest();
+        System.out.println("how you doin");
+        extentReport.passTest("how you doin");
         extentReport.flushReport();
     }
 }

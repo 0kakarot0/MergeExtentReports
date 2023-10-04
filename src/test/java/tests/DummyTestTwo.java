@@ -15,7 +15,7 @@ public class DummyTestTwo extends BaseClass {
         Thread.sleep(1000);
         extentReport.createTest("Page Two Test", "Test of the Page one");
         System.out.println("Assassin Creed is best RPG Game");
-        extentReport.passTest();
+        extentReport.passTest("Assassin Creed is best RPG Game");
         extentReport.flushReport();
     }
 }
