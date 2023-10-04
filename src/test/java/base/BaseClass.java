@@ -15,7 +15,7 @@ public class BaseClass {
 
     @BeforeSuite
     public void setUp() {
-        String jsonFolderPath = "/Users/qa/IdeaProjects/MergeExtentReports/src/main/resources/reports/";
+        String jsonFolderPath = "reportsFilePath";
         EmptyFolder emptyFolder = new EmptyFolder();
         emptyFolder.clearFolder(jsonFolderPath);
     }

@@ -18,12 +18,11 @@ public class ExtentReport {
 
     public ExtentReport() {
         extentReport = new ExtentReports();
-        reportFilePath = "/Users/qa/IdeaProjects/MergeExtentReports/src/main/resources/reports/";
+        reportFilePath = "reportsFilePath";
 
     }
 
     public void createReport() throws IOException {
-        String reportFilePath = "/Users/qa/IdeaProjects/MergeExtentReports/src/main/resources/reports/";
 
         // Generate a unique timestamp
         SimpleDateFormat dateFormat = new SimpleDateFormat("yyyyMMddHHmmss");
