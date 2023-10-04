@@ -54,8 +54,8 @@ public class ExtentReport {
         extentTest = extentReport.createTest(testName, testDescription);
     }
 
-    public void passTest() {
-        extentTest.pass("Test Passed");
+    public void passTest(String passString) {
+        extentTest.pass(passString);
     }
 
 
@@ -75,16 +75,17 @@ public class ExtentReport {
                     if (jsonFile.isFile() && jsonFile.getName().endsWith(".json")) {
                         try {
                             extentMerged.createDomainFromJsonArchive(jsonFile.getPath());
-                            System.out.println("Processed JSON file: " + jsonFile.getName());
                         } catch (IOException e) {
-                            System.err.println("Error processing JSON file: " + jsonFile.getName());
+                            System.err.println("Unable to get the JSON file");
                             e.printStackTrace();
                         }
                     }
                 }
             }
         }
+
         extentMerged.attachReporter(mergedSpark);
+
         // Flush the ExtentReports
         extentMerged.flush();
     }
