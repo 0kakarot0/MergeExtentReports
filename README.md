@@ -78,8 +78,3 @@ If you find Extent Report Merger useful, please give it a star :star: and share 
 
 What additional features would you like to see in future releases? :thinking:
 
----
-
-Remember to replace placeholders like your GitHub username and email address with actual values.
-
-
