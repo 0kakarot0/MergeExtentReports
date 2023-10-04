@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Your Test Suite" parallel="tests">
+    <listeners>
+        <listener class-name="utils.MyTestNGListener" />
+    </listeners>
+    <test name="Your Test">
+        <classes>
+            <!-- Add your test classes here -->
+            <class name="tests.DummyTestOne" />
+            <class name="tests.DummyTestTwo" />
+        </classes>
+    </test>
+</suite>
