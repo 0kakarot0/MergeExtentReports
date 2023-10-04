@@ -64,7 +64,7 @@ Feel free to fork the project and submit your pull requests.
 
 ## License :scroll:
 
-This project is licensed under the MIT License. See the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the MIT License. See the [LICENSE.md](https://github.com/0kakarot0/MergeExtentReports/blob/main/LICENSE) file for details.
 
 ---
 
